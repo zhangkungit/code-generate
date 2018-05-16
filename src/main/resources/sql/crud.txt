@@ -1,0 +1,5 @@
+
+
+<foreach collection="types" item="type" open="(" separator="," close=")">
+			#{type,jdbcType=VARCHAR}
+		</foreach>
